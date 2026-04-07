@@ -1,0 +1,47 @@
+{
+  "name": "scentshield",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ScentShield AI — Autonomous Fragrance Regulatory Intelligence Platform",
+  "workspaces": [
+    "packages/*",
+    "packages/agents/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:api\" \"npm run dev:agents\"",
+    "dev:api": "cd packages/api && npm run dev",
+    "dev:agents": "cd packages/agents/orchestrator && npm run dev",
+    "build": "turbo run build",
+    "db:migrate": "supabase db push",
+    "db:seed": "tsx scripts/seed-ingredients.ts",
+    "db:seed:ifra": "tsx scripts/seed-ifra-standards.ts",
+    "db:seed:clp": "tsx scripts/seed-clp-data.ts",
+    "db:seed:allergens": "tsx scripts/seed-allergens.ts",
+    "db:seed:all": "npm run db:seed && npm run db:seed:ifra && npm run db:seed:clp && npm run db:seed:allergens",
+    "db:reset": "supabase db reset && npm run db:seed:all",
+    "agents:start": "tsx packages/agents/orchestrator/src/index.ts",
+    "lint": "eslint packages --ext .ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "concurrently": "^8.2.0",
+    "eslint": "^8.56.0",
+    "tsx": "^4.7.0",
+    "turbo": "^1.12.0",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "@upstash/redis": "^1.28.0",
+    "@upstash/qstash": "^2.5.0",
+    "resend": "^3.0.0",
+    "stripe": "^14.14.0",
+    "zod": "^3.22.0",
+    "dotenv": "^16.4.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

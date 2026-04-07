@@ -1,0 +1,6 @@
+{
+  "name": "@scentshield/agent-complaints",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": { "dev": "tsx watch src/index.ts", "build": "tsc" }
+}
