@@ -1,0 +1,2856 @@
+{
+  "schemaVersion": "ecc.install.v1",
+  "installedAt": "2026-05-29T06:56:19.742Z",
+  "target": {
+    "id": "antigravity-project",
+    "target": "antigravity",
+    "kind": "project",
+    "root": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent",
+    "installStatePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/ecc-install-state.json"
+  },
+  "request": {
+    "profile": null,
+    "modules": [],
+    "includeComponents": [],
+    "excludeComponents": [],
+    "legacyLanguages": [
+      "typescript"
+    ],
+    "legacyMode": true
+  },
+  "resolution": {
+    "selectedModules": [
+      "rules-core",
+      "agents-core",
+      "commands-core"
+    ],
+    "skippedModules": []
+  },
+  "source": {
+    "repoVersion": "1.10.0",
+    "repoCommit": "119e455334c71c4dd4df22360fa053fbacdbf7d2",
+    "manifestVersion": 1
+  },
+  "operations": [
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/common/agents.md",
+      "sourceRelativePath": "rules/common/agents.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/common-agents.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/common/code-review.md",
+      "sourceRelativePath": "rules/common/code-review.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/common-code-review.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/common/coding-style.md",
+      "sourceRelativePath": "rules/common/coding-style.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/common-coding-style.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/common/development-workflow.md",
+      "sourceRelativePath": "rules/common/development-workflow.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/common-development-workflow.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/common/git-workflow.md",
+      "sourceRelativePath": "rules/common/git-workflow.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/common-git-workflow.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/common/hooks.md",
+      "sourceRelativePath": "rules/common/hooks.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/common-hooks.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/common/patterns.md",
+      "sourceRelativePath": "rules/common/patterns.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/common-patterns.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/common/performance.md",
+      "sourceRelativePath": "rules/common/performance.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/common-performance.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/common/security.md",
+      "sourceRelativePath": "rules/common/security.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/common-security.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/common/testing.md",
+      "sourceRelativePath": "rules/common/testing.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/common-testing.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/cpp/coding-style.md",
+      "sourceRelativePath": "rules/cpp/coding-style.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/cpp-coding-style.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/cpp/hooks.md",
+      "sourceRelativePath": "rules/cpp/hooks.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/cpp-hooks.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/cpp/patterns.md",
+      "sourceRelativePath": "rules/cpp/patterns.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/cpp-patterns.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/cpp/security.md",
+      "sourceRelativePath": "rules/cpp/security.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/cpp-security.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/cpp/testing.md",
+      "sourceRelativePath": "rules/cpp/testing.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/cpp-testing.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/csharp/coding-style.md",
+      "sourceRelativePath": "rules/csharp/coding-style.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/csharp-coding-style.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/csharp/hooks.md",
+      "sourceRelativePath": "rules/csharp/hooks.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/csharp-hooks.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/csharp/patterns.md",
+      "sourceRelativePath": "rules/csharp/patterns.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/csharp-patterns.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/csharp/security.md",
+      "sourceRelativePath": "rules/csharp/security.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/csharp-security.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/csharp/testing.md",
+      "sourceRelativePath": "rules/csharp/testing.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/csharp-testing.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/dart/coding-style.md",
+      "sourceRelativePath": "rules/dart/coding-style.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/dart-coding-style.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/dart/hooks.md",
+      "sourceRelativePath": "rules/dart/hooks.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/dart-hooks.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/dart/patterns.md",
+      "sourceRelativePath": "rules/dart/patterns.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/dart-patterns.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/dart/security.md",
+      "sourceRelativePath": "rules/dart/security.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/dart-security.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/dart/testing.md",
+      "sourceRelativePath": "rules/dart/testing.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/dart-testing.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/golang/coding-style.md",
+      "sourceRelativePath": "rules/golang/coding-style.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/golang-coding-style.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/golang/hooks.md",
+      "sourceRelativePath": "rules/golang/hooks.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/golang-hooks.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/golang/patterns.md",
+      "sourceRelativePath": "rules/golang/patterns.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/golang-patterns.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/golang/security.md",
+      "sourceRelativePath": "rules/golang/security.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/golang-security.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/golang/testing.md",
+      "sourceRelativePath": "rules/golang/testing.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/golang-testing.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/java/coding-style.md",
+      "sourceRelativePath": "rules/java/coding-style.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/java-coding-style.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/java/hooks.md",
+      "sourceRelativePath": "rules/java/hooks.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/java-hooks.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/java/patterns.md",
+      "sourceRelativePath": "rules/java/patterns.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/java-patterns.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/java/security.md",
+      "sourceRelativePath": "rules/java/security.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/java-security.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/java/testing.md",
+      "sourceRelativePath": "rules/java/testing.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/java-testing.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/kotlin/coding-style.md",
+      "sourceRelativePath": "rules/kotlin/coding-style.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/kotlin-coding-style.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/kotlin/hooks.md",
+      "sourceRelativePath": "rules/kotlin/hooks.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/kotlin-hooks.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/kotlin/patterns.md",
+      "sourceRelativePath": "rules/kotlin/patterns.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/kotlin-patterns.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/kotlin/security.md",
+      "sourceRelativePath": "rules/kotlin/security.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/kotlin-security.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/kotlin/testing.md",
+      "sourceRelativePath": "rules/kotlin/testing.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/kotlin-testing.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/perl/coding-style.md",
+      "sourceRelativePath": "rules/perl/coding-style.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/perl-coding-style.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/perl/hooks.md",
+      "sourceRelativePath": "rules/perl/hooks.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/perl-hooks.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/perl/patterns.md",
+      "sourceRelativePath": "rules/perl/patterns.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/perl-patterns.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/perl/security.md",
+      "sourceRelativePath": "rules/perl/security.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/perl-security.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/perl/testing.md",
+      "sourceRelativePath": "rules/perl/testing.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/perl-testing.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/php/coding-style.md",
+      "sourceRelativePath": "rules/php/coding-style.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/php-coding-style.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/php/hooks.md",
+      "sourceRelativePath": "rules/php/hooks.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/php-hooks.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/php/patterns.md",
+      "sourceRelativePath": "rules/php/patterns.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/php-patterns.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/php/security.md",
+      "sourceRelativePath": "rules/php/security.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/php-security.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/php/testing.md",
+      "sourceRelativePath": "rules/php/testing.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/php-testing.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/python/coding-style.md",
+      "sourceRelativePath": "rules/python/coding-style.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/python-coding-style.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/python/hooks.md",
+      "sourceRelativePath": "rules/python/hooks.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/python-hooks.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/python/patterns.md",
+      "sourceRelativePath": "rules/python/patterns.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/python-patterns.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/python/security.md",
+      "sourceRelativePath": "rules/python/security.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/python-security.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/python/testing.md",
+      "sourceRelativePath": "rules/python/testing.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/python-testing.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/README.md",
+      "sourceRelativePath": "rules/README.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/README.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/rust/coding-style.md",
+      "sourceRelativePath": "rules/rust/coding-style.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/rust-coding-style.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/rust/hooks.md",
+      "sourceRelativePath": "rules/rust/hooks.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/rust-hooks.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/rust/patterns.md",
+      "sourceRelativePath": "rules/rust/patterns.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/rust-patterns.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/rust/security.md",
+      "sourceRelativePath": "rules/rust/security.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/rust-security.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/rust/testing.md",
+      "sourceRelativePath": "rules/rust/testing.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/rust-testing.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/swift/coding-style.md",
+      "sourceRelativePath": "rules/swift/coding-style.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/swift-coding-style.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/swift/hooks.md",
+      "sourceRelativePath": "rules/swift/hooks.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/swift-hooks.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/swift/patterns.md",
+      "sourceRelativePath": "rules/swift/patterns.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/swift-patterns.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/swift/security.md",
+      "sourceRelativePath": "rules/swift/security.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/swift-security.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/swift/testing.md",
+      "sourceRelativePath": "rules/swift/testing.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/swift-testing.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/typescript/coding-style.md",
+      "sourceRelativePath": "rules/typescript/coding-style.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/typescript-coding-style.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/typescript/hooks.md",
+      "sourceRelativePath": "rules/typescript/hooks.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/typescript-hooks.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/typescript/patterns.md",
+      "sourceRelativePath": "rules/typescript/patterns.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/typescript-patterns.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/typescript/security.md",
+      "sourceRelativePath": "rules/typescript/security.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/typescript-security.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/typescript/testing.md",
+      "sourceRelativePath": "rules/typescript/testing.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/typescript-testing.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/web/coding-style.md",
+      "sourceRelativePath": "rules/web/coding-style.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/web-coding-style.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/web/design-quality.md",
+      "sourceRelativePath": "rules/web/design-quality.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/web-design-quality.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/web/hooks.md",
+      "sourceRelativePath": "rules/web/hooks.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/web-hooks.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/web/patterns.md",
+      "sourceRelativePath": "rules/web/patterns.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/web-patterns.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/web/performance.md",
+      "sourceRelativePath": "rules/web/performance.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/web-performance.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/web/security.md",
+      "sourceRelativePath": "rules/web/security.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/web-security.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/web/testing.md",
+      "sourceRelativePath": "rules/web/testing.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/web-testing.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/zh/agents.md",
+      "sourceRelativePath": "rules/zh/agents.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/zh-agents.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/zh/code-review.md",
+      "sourceRelativePath": "rules/zh/code-review.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/zh-code-review.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/zh/coding-style.md",
+      "sourceRelativePath": "rules/zh/coding-style.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/zh-coding-style.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/zh/development-workflow.md",
+      "sourceRelativePath": "rules/zh/development-workflow.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/zh-development-workflow.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/zh/git-workflow.md",
+      "sourceRelativePath": "rules/zh/git-workflow.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/zh-git-workflow.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/zh/hooks.md",
+      "sourceRelativePath": "rules/zh/hooks.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/zh-hooks.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/zh/patterns.md",
+      "sourceRelativePath": "rules/zh/patterns.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/zh-patterns.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/zh/performance.md",
+      "sourceRelativePath": "rules/zh/performance.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/zh-performance.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/zh/README.md",
+      "sourceRelativePath": "rules/zh/README.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/zh-README.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/zh/security.md",
+      "sourceRelativePath": "rules/zh/security.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/zh-security.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "rules-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/rules/zh/testing.md",
+      "sourceRelativePath": "rules/zh/testing.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/rules/zh-testing.md",
+      "strategy": "flatten-copy",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/plugins/marketplace.json",
+      "sourceRelativePath": ".agents/plugins/marketplace.json",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/plugins/marketplace.json",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/agent-introspection-debugging/SKILL.md",
+      "sourceRelativePath": ".agents/skills/agent-introspection-debugging/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/agent-introspection-debugging/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/agent-sort/SKILL.md",
+      "sourceRelativePath": ".agents/skills/agent-sort/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/agent-sort/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/api-design/SKILL.md",
+      "sourceRelativePath": ".agents/skills/api-design/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/api-design/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/api-design/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/api-design/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/api-design/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/article-writing/SKILL.md",
+      "sourceRelativePath": ".agents/skills/article-writing/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/article-writing/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/article-writing/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/article-writing/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/article-writing/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/backend-patterns/SKILL.md",
+      "sourceRelativePath": ".agents/skills/backend-patterns/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/backend-patterns/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/backend-patterns/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/backend-patterns/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/backend-patterns/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/brand-voice/SKILL.md",
+      "sourceRelativePath": ".agents/skills/brand-voice/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/brand-voice/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/brand-voice/references/voice-profile-schema.md",
+      "sourceRelativePath": ".agents/skills/brand-voice/references/voice-profile-schema.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/brand-voice/references/voice-profile-schema.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/bun-runtime/SKILL.md",
+      "sourceRelativePath": ".agents/skills/bun-runtime/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/bun-runtime/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/bun-runtime/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/bun-runtime/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/bun-runtime/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/claude-api/SKILL.md",
+      "sourceRelativePath": ".agents/skills/claude-api/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/claude-api/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/claude-api/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/claude-api/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/claude-api/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/coding-standards/SKILL.md",
+      "sourceRelativePath": ".agents/skills/coding-standards/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/coding-standards/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/coding-standards/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/coding-standards/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/coding-standards/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/content-engine/SKILL.md",
+      "sourceRelativePath": ".agents/skills/content-engine/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/content-engine/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/content-engine/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/content-engine/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/content-engine/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/crosspost/SKILL.md",
+      "sourceRelativePath": ".agents/skills/crosspost/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/crosspost/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/crosspost/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/crosspost/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/crosspost/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/deep-research/SKILL.md",
+      "sourceRelativePath": ".agents/skills/deep-research/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/deep-research/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/deep-research/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/deep-research/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/deep-research/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/dmux-workflows/SKILL.md",
+      "sourceRelativePath": ".agents/skills/dmux-workflows/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/dmux-workflows/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/dmux-workflows/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/dmux-workflows/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/dmux-workflows/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/documentation-lookup/SKILL.md",
+      "sourceRelativePath": ".agents/skills/documentation-lookup/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/documentation-lookup/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/documentation-lookup/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/documentation-lookup/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/documentation-lookup/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/e2e-testing/SKILL.md",
+      "sourceRelativePath": ".agents/skills/e2e-testing/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/e2e-testing/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/e2e-testing/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/e2e-testing/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/e2e-testing/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/eval-harness/SKILL.md",
+      "sourceRelativePath": ".agents/skills/eval-harness/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/eval-harness/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/eval-harness/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/eval-harness/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/eval-harness/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/everything-claude-code/SKILL.md",
+      "sourceRelativePath": ".agents/skills/everything-claude-code/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/everything-claude-code/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/everything-claude-code/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/everything-claude-code/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/everything-claude-code/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/exa-search/SKILL.md",
+      "sourceRelativePath": ".agents/skills/exa-search/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/exa-search/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/exa-search/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/exa-search/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/exa-search/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/fal-ai-media/SKILL.md",
+      "sourceRelativePath": ".agents/skills/fal-ai-media/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/fal-ai-media/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/fal-ai-media/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/fal-ai-media/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/fal-ai-media/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/frontend-design/SKILL.md",
+      "sourceRelativePath": ".agents/skills/frontend-design/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/frontend-design/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/frontend-patterns/SKILL.md",
+      "sourceRelativePath": ".agents/skills/frontend-patterns/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/frontend-patterns/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/frontend-patterns/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/frontend-patterns/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/frontend-patterns/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/frontend-slides/SKILL.md",
+      "sourceRelativePath": ".agents/skills/frontend-slides/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/frontend-slides/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/frontend-slides/STYLE_PRESETS.md",
+      "sourceRelativePath": ".agents/skills/frontend-slides/STYLE_PRESETS.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/frontend-slides/STYLE_PRESETS.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/frontend-slides/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/frontend-slides/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/frontend-slides/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/investor-materials/SKILL.md",
+      "sourceRelativePath": ".agents/skills/investor-materials/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/investor-materials/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/investor-materials/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/investor-materials/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/investor-materials/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/investor-outreach/SKILL.md",
+      "sourceRelativePath": ".agents/skills/investor-outreach/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/investor-outreach/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/investor-outreach/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/investor-outreach/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/investor-outreach/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/market-research/SKILL.md",
+      "sourceRelativePath": ".agents/skills/market-research/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/market-research/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/market-research/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/market-research/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/market-research/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/mcp-server-patterns/SKILL.md",
+      "sourceRelativePath": ".agents/skills/mcp-server-patterns/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/mcp-server-patterns/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/nextjs-turbopack/SKILL.md",
+      "sourceRelativePath": ".agents/skills/nextjs-turbopack/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/nextjs-turbopack/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/nextjs-turbopack/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/nextjs-turbopack/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/nextjs-turbopack/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/product-capability/SKILL.md",
+      "sourceRelativePath": ".agents/skills/product-capability/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/product-capability/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/security-review/SKILL.md",
+      "sourceRelativePath": ".agents/skills/security-review/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/security-review/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/security-review/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/security-review/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/security-review/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/strategic-compact/SKILL.md",
+      "sourceRelativePath": ".agents/skills/strategic-compact/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/strategic-compact/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/strategic-compact/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/strategic-compact/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/strategic-compact/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/tdd-workflow/SKILL.md",
+      "sourceRelativePath": ".agents/skills/tdd-workflow/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/tdd-workflow/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/tdd-workflow/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/tdd-workflow/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/tdd-workflow/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/verification-loop/SKILL.md",
+      "sourceRelativePath": ".agents/skills/verification-loop/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/verification-loop/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/verification-loop/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/verification-loop/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/verification-loop/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/video-editing/SKILL.md",
+      "sourceRelativePath": ".agents/skills/video-editing/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/video-editing/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/video-editing/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/video-editing/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/video-editing/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/x-api/SKILL.md",
+      "sourceRelativePath": ".agents/skills/x-api/SKILL.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/x-api/SKILL.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/.agents/skills/x-api/agents/openai.yaml",
+      "sourceRelativePath": ".agents/skills/x-api/agents/openai.yaml",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/.agents/skills/x-api/agents/openai.yaml",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/a11y-architect.md",
+      "sourceRelativePath": "agents/a11y-architect.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/a11y-architect.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/architect.md",
+      "sourceRelativePath": "agents/architect.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/architect.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/build-error-resolver.md",
+      "sourceRelativePath": "agents/build-error-resolver.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/build-error-resolver.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/chief-of-staff.md",
+      "sourceRelativePath": "agents/chief-of-staff.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/chief-of-staff.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/code-architect.md",
+      "sourceRelativePath": "agents/code-architect.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/code-architect.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/code-explorer.md",
+      "sourceRelativePath": "agents/code-explorer.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/code-explorer.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/code-reviewer.md",
+      "sourceRelativePath": "agents/code-reviewer.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/code-reviewer.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/code-simplifier.md",
+      "sourceRelativePath": "agents/code-simplifier.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/code-simplifier.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/comment-analyzer.md",
+      "sourceRelativePath": "agents/comment-analyzer.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/comment-analyzer.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/conversation-analyzer.md",
+      "sourceRelativePath": "agents/conversation-analyzer.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/conversation-analyzer.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/cpp-build-resolver.md",
+      "sourceRelativePath": "agents/cpp-build-resolver.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/cpp-build-resolver.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/cpp-reviewer.md",
+      "sourceRelativePath": "agents/cpp-reviewer.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/cpp-reviewer.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/csharp-reviewer.md",
+      "sourceRelativePath": "agents/csharp-reviewer.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/csharp-reviewer.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/dart-build-resolver.md",
+      "sourceRelativePath": "agents/dart-build-resolver.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/dart-build-resolver.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/database-reviewer.md",
+      "sourceRelativePath": "agents/database-reviewer.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/database-reviewer.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/doc-updater.md",
+      "sourceRelativePath": "agents/doc-updater.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/doc-updater.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/docs-lookup.md",
+      "sourceRelativePath": "agents/docs-lookup.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/docs-lookup.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/e2e-runner.md",
+      "sourceRelativePath": "agents/e2e-runner.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/e2e-runner.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/flutter-reviewer.md",
+      "sourceRelativePath": "agents/flutter-reviewer.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/flutter-reviewer.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/gan-evaluator.md",
+      "sourceRelativePath": "agents/gan-evaluator.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/gan-evaluator.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/gan-generator.md",
+      "sourceRelativePath": "agents/gan-generator.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/gan-generator.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/gan-planner.md",
+      "sourceRelativePath": "agents/gan-planner.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/gan-planner.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/go-build-resolver.md",
+      "sourceRelativePath": "agents/go-build-resolver.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/go-build-resolver.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/go-reviewer.md",
+      "sourceRelativePath": "agents/go-reviewer.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/go-reviewer.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/harness-optimizer.md",
+      "sourceRelativePath": "agents/harness-optimizer.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/harness-optimizer.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/healthcare-reviewer.md",
+      "sourceRelativePath": "agents/healthcare-reviewer.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/healthcare-reviewer.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/java-build-resolver.md",
+      "sourceRelativePath": "agents/java-build-resolver.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/java-build-resolver.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/java-reviewer.md",
+      "sourceRelativePath": "agents/java-reviewer.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/java-reviewer.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/kotlin-build-resolver.md",
+      "sourceRelativePath": "agents/kotlin-build-resolver.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/kotlin-build-resolver.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/kotlin-reviewer.md",
+      "sourceRelativePath": "agents/kotlin-reviewer.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/kotlin-reviewer.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/loop-operator.md",
+      "sourceRelativePath": "agents/loop-operator.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/loop-operator.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/opensource-forker.md",
+      "sourceRelativePath": "agents/opensource-forker.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/opensource-forker.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/opensource-packager.md",
+      "sourceRelativePath": "agents/opensource-packager.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/opensource-packager.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/opensource-sanitizer.md",
+      "sourceRelativePath": "agents/opensource-sanitizer.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/opensource-sanitizer.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/performance-optimizer.md",
+      "sourceRelativePath": "agents/performance-optimizer.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/performance-optimizer.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/planner.md",
+      "sourceRelativePath": "agents/planner.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/planner.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/pr-test-analyzer.md",
+      "sourceRelativePath": "agents/pr-test-analyzer.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/pr-test-analyzer.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/python-reviewer.md",
+      "sourceRelativePath": "agents/python-reviewer.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/python-reviewer.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/pytorch-build-resolver.md",
+      "sourceRelativePath": "agents/pytorch-build-resolver.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/pytorch-build-resolver.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/refactor-cleaner.md",
+      "sourceRelativePath": "agents/refactor-cleaner.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/refactor-cleaner.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/rust-build-resolver.md",
+      "sourceRelativePath": "agents/rust-build-resolver.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/rust-build-resolver.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/rust-reviewer.md",
+      "sourceRelativePath": "agents/rust-reviewer.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/rust-reviewer.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/security-reviewer.md",
+      "sourceRelativePath": "agents/security-reviewer.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/security-reviewer.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/seo-specialist.md",
+      "sourceRelativePath": "agents/seo-specialist.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/seo-specialist.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/silent-failure-hunter.md",
+      "sourceRelativePath": "agents/silent-failure-hunter.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/silent-failure-hunter.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/tdd-guide.md",
+      "sourceRelativePath": "agents/tdd-guide.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/tdd-guide.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/type-design-analyzer.md",
+      "sourceRelativePath": "agents/type-design-analyzer.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/type-design-analyzer.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/agents/typescript-reviewer.md",
+      "sourceRelativePath": "agents/typescript-reviewer.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/skills/typescript-reviewer.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "agents-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/AGENTS.md",
+      "sourceRelativePath": "AGENTS.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/AGENTS.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/agent-sort.md",
+      "sourceRelativePath": "commands/agent-sort.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/agent-sort.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/aside.md",
+      "sourceRelativePath": "commands/aside.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/aside.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/build-fix.md",
+      "sourceRelativePath": "commands/build-fix.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/build-fix.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/checkpoint.md",
+      "sourceRelativePath": "commands/checkpoint.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/checkpoint.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/claw.md",
+      "sourceRelativePath": "commands/claw.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/claw.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/code-review.md",
+      "sourceRelativePath": "commands/code-review.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/code-review.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/context-budget.md",
+      "sourceRelativePath": "commands/context-budget.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/context-budget.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/cpp-build.md",
+      "sourceRelativePath": "commands/cpp-build.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/cpp-build.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/cpp-review.md",
+      "sourceRelativePath": "commands/cpp-review.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/cpp-review.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/cpp-test.md",
+      "sourceRelativePath": "commands/cpp-test.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/cpp-test.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/devfleet.md",
+      "sourceRelativePath": "commands/devfleet.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/devfleet.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/docs.md",
+      "sourceRelativePath": "commands/docs.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/docs.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/e2e.md",
+      "sourceRelativePath": "commands/e2e.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/e2e.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/eval.md",
+      "sourceRelativePath": "commands/eval.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/eval.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/evolve.md",
+      "sourceRelativePath": "commands/evolve.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/evolve.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/feature-dev.md",
+      "sourceRelativePath": "commands/feature-dev.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/feature-dev.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/flutter-build.md",
+      "sourceRelativePath": "commands/flutter-build.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/flutter-build.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/flutter-review.md",
+      "sourceRelativePath": "commands/flutter-review.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/flutter-review.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/flutter-test.md",
+      "sourceRelativePath": "commands/flutter-test.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/flutter-test.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/gan-build.md",
+      "sourceRelativePath": "commands/gan-build.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/gan-build.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/gan-design.md",
+      "sourceRelativePath": "commands/gan-design.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/gan-design.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/go-build.md",
+      "sourceRelativePath": "commands/go-build.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/go-build.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/go-review.md",
+      "sourceRelativePath": "commands/go-review.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/go-review.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/go-test.md",
+      "sourceRelativePath": "commands/go-test.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/go-test.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/gradle-build.md",
+      "sourceRelativePath": "commands/gradle-build.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/gradle-build.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/harness-audit.md",
+      "sourceRelativePath": "commands/harness-audit.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/harness-audit.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/hookify-configure.md",
+      "sourceRelativePath": "commands/hookify-configure.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/hookify-configure.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/hookify-help.md",
+      "sourceRelativePath": "commands/hookify-help.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/hookify-help.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/hookify-list.md",
+      "sourceRelativePath": "commands/hookify-list.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/hookify-list.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/hookify.md",
+      "sourceRelativePath": "commands/hookify.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/hookify.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/instinct-export.md",
+      "sourceRelativePath": "commands/instinct-export.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/instinct-export.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/instinct-import.md",
+      "sourceRelativePath": "commands/instinct-import.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/instinct-import.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/instinct-status.md",
+      "sourceRelativePath": "commands/instinct-status.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/instinct-status.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/jira.md",
+      "sourceRelativePath": "commands/jira.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/jira.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/kotlin-build.md",
+      "sourceRelativePath": "commands/kotlin-build.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/kotlin-build.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/kotlin-review.md",
+      "sourceRelativePath": "commands/kotlin-review.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/kotlin-review.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/kotlin-test.md",
+      "sourceRelativePath": "commands/kotlin-test.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/kotlin-test.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/learn-eval.md",
+      "sourceRelativePath": "commands/learn-eval.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/learn-eval.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/learn.md",
+      "sourceRelativePath": "commands/learn.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/learn.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/loop-start.md",
+      "sourceRelativePath": "commands/loop-start.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/loop-start.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/loop-status.md",
+      "sourceRelativePath": "commands/loop-status.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/loop-status.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/model-route.md",
+      "sourceRelativePath": "commands/model-route.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/model-route.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/multi-backend.md",
+      "sourceRelativePath": "commands/multi-backend.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/multi-backend.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/multi-execute.md",
+      "sourceRelativePath": "commands/multi-execute.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/multi-execute.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/multi-frontend.md",
+      "sourceRelativePath": "commands/multi-frontend.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/multi-frontend.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/multi-plan.md",
+      "sourceRelativePath": "commands/multi-plan.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/multi-plan.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/multi-workflow.md",
+      "sourceRelativePath": "commands/multi-workflow.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/multi-workflow.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/orchestrate.md",
+      "sourceRelativePath": "commands/orchestrate.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/orchestrate.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/plan.md",
+      "sourceRelativePath": "commands/plan.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/plan.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/pm2.md",
+      "sourceRelativePath": "commands/pm2.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/pm2.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/projects.md",
+      "sourceRelativePath": "commands/projects.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/projects.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/promote.md",
+      "sourceRelativePath": "commands/promote.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/promote.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/prompt-optimize.md",
+      "sourceRelativePath": "commands/prompt-optimize.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/prompt-optimize.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/prp-commit.md",
+      "sourceRelativePath": "commands/prp-commit.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/prp-commit.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/prp-implement.md",
+      "sourceRelativePath": "commands/prp-implement.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/prp-implement.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/prp-plan.md",
+      "sourceRelativePath": "commands/prp-plan.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/prp-plan.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/prp-pr.md",
+      "sourceRelativePath": "commands/prp-pr.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/prp-pr.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/prp-prd.md",
+      "sourceRelativePath": "commands/prp-prd.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/prp-prd.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/prune.md",
+      "sourceRelativePath": "commands/prune.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/prune.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/python-review.md",
+      "sourceRelativePath": "commands/python-review.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/python-review.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/quality-gate.md",
+      "sourceRelativePath": "commands/quality-gate.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/quality-gate.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/refactor-clean.md",
+      "sourceRelativePath": "commands/refactor-clean.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/refactor-clean.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/resume-session.md",
+      "sourceRelativePath": "commands/resume-session.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/resume-session.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/review-pr.md",
+      "sourceRelativePath": "commands/review-pr.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/review-pr.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/rules-distill.md",
+      "sourceRelativePath": "commands/rules-distill.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/rules-distill.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/rust-build.md",
+      "sourceRelativePath": "commands/rust-build.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/rust-build.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/rust-review.md",
+      "sourceRelativePath": "commands/rust-review.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/rust-review.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/rust-test.md",
+      "sourceRelativePath": "commands/rust-test.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/rust-test.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/santa-loop.md",
+      "sourceRelativePath": "commands/santa-loop.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/santa-loop.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/save-session.md",
+      "sourceRelativePath": "commands/save-session.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/save-session.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/sessions.md",
+      "sourceRelativePath": "commands/sessions.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/sessions.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/setup-pm.md",
+      "sourceRelativePath": "commands/setup-pm.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/setup-pm.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/skill-create.md",
+      "sourceRelativePath": "commands/skill-create.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/skill-create.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/skill-health.md",
+      "sourceRelativePath": "commands/skill-health.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/skill-health.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/tdd.md",
+      "sourceRelativePath": "commands/tdd.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/tdd.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/test-coverage.md",
+      "sourceRelativePath": "commands/test-coverage.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/test-coverage.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/update-codemaps.md",
+      "sourceRelativePath": "commands/update-codemaps.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/update-codemaps.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/update-docs.md",
+      "sourceRelativePath": "commands/update-docs.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/update-docs.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    },
+    {
+      "kind": "copy-file",
+      "moduleId": "commands-core",
+      "sourcePath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/node_modules/ecc-universal/commands/verify.md",
+      "sourceRelativePath": "commands/verify.md",
+      "destinationPath": "/tmp/workspace/AlfredNathan0205/AlfredNathan0205/.agent/workflows/verify.md",
+      "strategy": "preserve-relative-path",
+      "ownership": "managed",
+      "scaffoldOnly": false
+    }
+  ]
+}
